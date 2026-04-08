@@ -1,6 +1,6 @@
 opencv-python
 ultralytics
-torch
+torch==2.5
 transformers
 pillow
 scipy
@@ -8,3 +8,4 @@ accelerate
 qwen-vl-utils 
 torchvision
 flask
+flash-attn

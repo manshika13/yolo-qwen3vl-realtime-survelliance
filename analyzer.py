@@ -49,6 +49,7 @@ class VLMAnalyzer:
         self.model = Qwen3VLForConditionalGeneration.from_pretrained(
             QWEN_MODEL,
             torch_dtype=torch.float16,
+            attn_implementation="sdpa",
             device_map={"": VLM_DEVICE},
         )
         self.processor = AutoProcessor.from_pretrained(QWEN_MODEL)

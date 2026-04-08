@@ -1,12 +1,12 @@
 import os
 
 # ─── RTSP / Camera ───
-RTSP_URL = os.getenv("RTSP_URL", "rtsp://192.168.228.29:8554/mystream")  # "0" = webcam fallback
+RTSP_URL = os.getenv("RTSP_URL","0")  # "0" = webcam fallback "RTSP_URL", "rtsp://192.168.228.29:8554/mystream"
 CAPTURE_FPS = 30
 DETECTION_EVERY_N = 5  # run YOLO on every Nth frame
 
 # ─── GPU ───
-GPU_ID = 2
+GPU_ID = 0
 YOLO_DEVICE = f"cuda:{GPU_ID}"
 VLM_DEVICE = f"cuda:{GPU_ID}"
 

@@ -7,3 +7,4 @@ output/
 yolo-vnv/
 yolov8s.pt
 .env
+venv/
