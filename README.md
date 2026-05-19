@@ -36,6 +36,9 @@ This project captures an RTSP stream (or local webcam), detects people or object
 git checkout updated-features
 ```
 
+##Flow Diagram
+<img>https://www.overleaf.com/project/69f2fe6bcd8ec912582918d2/blob/d288483dfd35b029df8a2486f2c9c2e42e351c55
+
 ### Install Dependencies
 
 Install the requirements using `pip`:
