@@ -1,5 +1,4 @@
 # YOLO-Qwen3-VL Surveillance Pipeline
-
 An intelligent surveillance pipeline that combines the real-time object detection capabilities of YOLOv8 with the advanced multi-modal visual language understanding of Qwen3-VL. 
 
 This project captures an RTSP stream (or local webcam), detects people or objects using YOLO, buffers frames containing detections, and processes them asynchronously using a Vision-Language Model (Qwen3-VL) to extract detailed descriptive insights or perform security analysis. It also features a live Flask-based Web UI for streaming the analyzed feed.
@@ -58,7 +57,7 @@ Edit `config.py` to fit your setup:
 
 Start the surveillance pipeline:
 
-```bash
+```cmd
 python main.py
 ```
 
