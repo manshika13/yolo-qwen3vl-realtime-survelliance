@@ -34,7 +34,14 @@ This project captures an RTSP stream (or local webcam), detects people or object
 ```bash
 git checkout updated-features
 ```
+## Environment Setup
+'''cmd
+venv\Scripts\activate.bat
 
+'''powershell
+venv\Scripts\Activate.ps1
+If powersheel gives a script execution error, run this first:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Install Dependencies
 
 Install the requirements using `pip`:
